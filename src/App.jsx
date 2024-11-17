@@ -1,33 +1,35 @@
-import React from 'react'
-import NavbarBasic from './Components/Navbar/Navbar'
-import Hero from './Components/Hero/Hero'
-import HoroscopeForm from './Components/HoroScope/HoroscopeForm'
-import HoroscopeContent from './Components/HoroScope/HoroscopeContent'
-import ContentSection from './Components/HoroScope/ContentSection'
-import Horo1 from './Components/HoroScope/Horo1'
-import Horo2 from './Components/HoroScope/Horo2'
-import Planat from './Components/Planat/Planat'
-import About from './Components/Mission&Vission/About'
-import AstrologyInfo from './Components/AstrologyInfo/AstrologyInfo'
-import CardSlider from './Components/CardSlider/CardSlider'
-import Footer from './Components/Footer/Footer'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Components/Pages/Home';
+// import Contact from './Components/Pages/Contact';  // Import Contact component
+// import Service from './Components/Pages/Service';  // Import Service component
+import AboutUs from './Components/Aboutus/Aboutus';  // Import AboutUs component
+import Footer from './Components/Footer/Footer';
+import Example from './Components/Navbar/Navbar';
+
+const PageComponent = ({ Page }) => {
+  return (
+    <>
+      
+      <Example Page={<Page />} />
+      <Footer />
+    </>
+  );
+};
+
 const App = () => {
   return (
     <div>
-      <NavbarBasic/>
-      <Hero/>
-      <HoroscopeForm/>
-      <HoroscopeContent/>
-      <ContentSection/>
-      <Horo1/>
-      <Horo2/>
-      <Planat/>
-      <About/>
-      <AstrologyInfo/>
-      <CardSlider/>
-      <Footer/>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/contact" element={<PageComponent Page={Contact} />} />
+          <Route path="/services" element={<PageComponent Page={Service} />} /> */}
+          <Route path="/about" element={<PageComponent Page={AboutUs} />} />
+        </Routes>
+      </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

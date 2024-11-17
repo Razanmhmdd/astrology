@@ -1,53 +1,39 @@
-import React from 'react';
-import img1 from "/assets/image/content/1.png"
-import img2 from "/assets/image/content/2.png"
-import img3 from "/assets/image/content/3.png"
-import img4 from "/assets/image/content/4.png"
-import img5 from "/assets/image/content/5.png"
 
+import React from "react";
+import typewriterImage from "/assets/image/num3.jpg";
 
-
-export default function HoroscopeContent() {
+function HoroscopeContent() {
   return (
-    <div className="flex flex-col items-center min-h-screen bg-gray-100 px-4 py-10 text-center">
-      {/* Title */}
-      <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-      ආසිරි ජ්‍යොතිෂ සේවය
-      </h1>
+    <div className="flex flex-col md:flex-row-reverse items-center justify-around p-6 md:p-12 bg-gradient-to-r from-pink-200 to-violet-200 rounded-lg shadow-lg space-y-6 md:space-y-0 md:space-x-6">
+      
 
-      {/* Icon Row */}
-      <div className="flex justify-center space-x-6 mb-8">
-        <img src={img1} alt="Icon 1" className="w-8 h-8 md:w-10 md:h-10" />
-        <img src={img2} alt="Icon 2" className="w-8 h-8 md:w-10 md:h-10" />
-        <img src={img3} alt="Icon 3" className="w-8 h-8 md:w-10 md:h-10" />
-        <img src={img4} alt="Icon 3" className="w-8 h-8 md:w-10 md:h-10" />
+      {/* Text Section */}
+      <div className="flex-1 flex flex-col justify-center items-center md:items-start text-center md:text-left">
+        {/* Heading */}
+        <h2 className="text-3xl font-semibold text-gray-900 mb-6">
+          ජ්‍යෝතිශය පාඨමාලාව
+        </h2>
+        <ul className="list-disc text-gray-800 text-xl font-bold leading-relaxed space-y-3 px-6 md:px-0">
+          <li>යොහෝ පිටිතී පද්ධති අදාල පැතලම</li>
+          <li>ඔබගේ විචාර ලක්ෂණ</li>
+          <li>විවාහය හා අලුත උප කාලය</li>
+          <li>බාන ය, රැකියා , ධනය</li>
+          <li>පොරොහදමි පරිකථනය</li>
+          <li>දරු පල විස්තර</li>
+          <li>ජීවිත කාලයට විශේෂ අතාල පලාපන</li>
+        </ul>
       </div>
-
-      {/* Horoscope Chart Image */}
-      <div className="flex justify-center mb-8">
-        <img src={img5} alt="Horoscope Chart" className="w-64 h-64 md:w-80 md:h-80 opacity-80" />
-      </div>
-
-      {/* Horoscope Details */}
-      <div className="space-y-4 mb-8">
-        {[
-          'යොහෝ පිටිතී පද්ධති අදාල පැතලම',
-          'ඔබගේ විචාර ලක්ෂණ',
-          'විවාහය හා අලුත උප කාලය',
-          'බාන ය, රැකියා , ධනය',
-          'දරු පල විස්තර',
-          'ජීවිත කාලයට විශේෂ අතාල පලාපන'
-        ].map((text, index) => (
-          <button key={index} className="w-full md:w-96 bg-yellow-400 text-gray-800 font-semibold py-2 px-4 rounded-lg shadow-lg hover:bg-yellow-500 transition duration-300">
-            {text}
-          </button>
-        ))}
-      </div>
-
-      {/* Planet Icons */}
-      <div className="flex justify-center space-x-4">
-      {/* <img src={img6} alt="Horoscope Chart" className="w-auto h-auto md:w-80 md:h-80 opacity-80" /> */}
+      {/* Image Section */}
+      <div className="flex-1 flex justify-center items-center">
+        <img
+          src={typewriterImage}
+          alt="Typewriter with stars"
+          className="w-4/5 md:w-full lg:w-3/4 max-h-96 rounded-lg shadow-md object-cover"
+        />
       </div>
     </div>
   );
 }
+
+export default HoroscopeContent;
+

@@ -5,22 +5,22 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center px-4 py-10 bg-gray-100 min-h-screen">
+    <div className="flex flex-col items-center px-4 py-10 bg-gradient-to-r from-violet-200 to-pink-200 min-h-screen">
       <h2 className="text-4xl font-semibold text-gold-500 mb-8 text-center">අපට අමතන්න</h2>
 
       {/* Contact Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full max-w-4xl mb-12">
-        <div className="flex flex-col items-center p-6 bg-gray-200 rounded-lg">
+        <div className="flex flex-col items-center p-6 bg-white rounded-lg">
           <span className="text-3xl mb-2"><MdEmail/></span>
           <h3 className="text-lg font-semibold text-blue-700">Email</h3>
           <p className="text-gray-700">support@asiriastrology.com</p>
         </div>
-        <div className="flex flex-col items-center p-6 bg-gray-200 rounded-lg">
+        <div className="flex flex-col items-center p-6 bg-white rounded-lg">
           <span className="text-3xl mb-2"><MdWifiCalling3/></span>
           <h3 className="text-lg font-semibold text-blue-700">Contact</h3>
           <p className="text-gray-700">0779920181</p>
         </div>
-        <div className="flex flex-col items-center p-6 bg-gray-200 rounded-lg">
+        <div className="flex flex-col items-center p-6 bg-white rounded-lg">
           <span className="text-3xl mb-2"><RiWhatsappFill/></span>
           <h3 className="text-lg font-semibold text-blue-700">WhatsApp</h3>
           <p className="text-gray-700">0718062905</p>

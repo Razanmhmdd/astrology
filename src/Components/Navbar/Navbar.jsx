@@ -1,105 +1,106 @@
-import React, { useState } from "react"
-import logo from "/assets/image/logo/logo.png";
-export default function NavbarBasic() {
-  const [isToggleOpen, setIsToggleOpen] = useState(false)
+
+import { useState } from 'react';
+import { Dialog, DialogPanel } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import logo from '/assets/image/logo/logo.png';
+// import AboutUs from '../Aboutus/Aboutus';
+
+const navigation = [
+  { name: 'Home', href: '/' },  // link to the homepage
+  { name: 'Services', href: '/services' },  // link to the services page
+  { name: 'About Us', href: '/about' },  // link to the about page
+  { name: 'Contact Us', href: '/contact' },  // link to the contact page
+];
+
+
+export default function Example({Page}) {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <>
-      {/*<!-- Component: Basic Navbar --> */}
-      <header className=" relative z-20 w-full border-b border-black bg-black shadow-lg shadow-slate-700/5 after:absolute after:left-0 after:top-full after:z-10 after:block after:h-px after:w-full after:bg-black lg:border-black lg:backdrop-blur-sm lg:after:hidden">
-        <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
-          <nav
-            aria-label="main navigation"
-            className="flex h-[5.5rem] items-stretch justify-between font-medium text-amber-500"
-            role="navigation"
-          >
-            {/*      <!-- Brand logo --> */}
-            <img src={logo} alt="Logo" className="h-auto w-auto" />
-
-            {/*      <!-- Mobile trigger --> */}
+    <div className="bg-white">
+      <header className="absolute inset-x-0 top-0 z-50">
+        <nav
+          aria-label="Global"
+          className="flex items-center justify-between p-6 lg:px-8"
+        >
+          <div className="flex lg:flex-1">
+            <a href="#" className="-m-1.5 p-1.5">
+              <span className="sr-only">Your Company</span>
+              <img
+                src={logo}
+                alt="Logo"
+                className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-14 lg:w-14"
+              />
+            </a>
+          </div>
+          <div className="flex lg:hidden">
             <button
-              className={`relative order-10 block h-10 w-10 self-center lg:hidden bg-amber-500
-                ${
-                  isToggleOpen
-                    ? "visible opacity-100 [&_span:nth-child(1)]:w-6 [&_span:nth-child(1)]:translate-y-0 [&_span:nth-child(1)]:rotate-45 [&_span:nth-child(2)]:-rotate-45 [&_span:nth-child(3)]:w-0 "
-                    : ""
-                }
-              `}
-              onClick={() => setIsToggleOpen(!isToggleOpen)}
-              aria-expanded={isToggleOpen ? "true" : "false"}
-              aria-label="Toggle navigation"
+              type="button"
+              onClick={() => setMobileMenuOpen(true)}
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
             >
-              <div className="absolute left-1/2 top-1/2 w-6 -translate-x-1/2 -translate-y-1/2 transform">
-                <span
-                  aria-hidden="true"
-                  className="absolute block h-0.5 w-9/12 -translate-y-2 transform rounded-full bg-slate-900 transition-all duration-300 text-black"
-                ></span>
-                <span
-                  aria-hidden="true"
-                  className="absolute block h-0.5 w-6 transform rounded-full bg-slate-900 transition duration-300 text-black"
-                ></span>
-                <span
-                  aria-hidden="true"
-                  className="absolute block h-0.5 w-1/2 origin-top-left translate-y-2 transform rounded-full bg-slate-900 transition-all duration-300 text-black"
-                ></span>
-              </div>
+              <span className="sr-only">Open main menu</span>
+              <Bars3Icon aria-hidden="true" className="size-6" />
             </button>
-            {/*      <!-- Navigation links --> */}
-            <ul
-              role="menubar"
-              aria-label="Select page"
-              className={`absolute left-0 top-0 z-[-1] h-[28.5rem] w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain bg-black px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${
-                isToggleOpen
-                  ? "visible opacity-100 backdrop-blur-sm"
-                  : "invisible opacity-0"
-              }`}
-            >
-              <li role="none" className="flex items-stretch">
-                <a
-                  role="menuitem"
-                  aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
-                >
-                  <span>Home</span>
-                </a>
-              </li>
-              <li role="none" className="flex items-stretch">
-                <a
-                  role="menuitem"
-                  aria-current="page"
-                  aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 text-emerald-500 transition-colors duration-300 hover:text-emerald-600 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
-                >
-                  <span>About us</span>
-                </a>
-              </li>
-              <li role="none" className="flex items-stretch">
-                <a
-                  role="menuitem"
-                  aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
-                >
-                  <span>Services</span>
-                </a>
-              </li>
-              <li role="none" className="flex items-stretch">
-                <a
-                  role="menuitem"
-                  aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
-                >
-                  <span>Contact</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+          </div>
+          <div className="hidden lg:flex lg:gap-x-12">
+            {navigation.map((item) => (
+              <a
+                key={item.name}
+                href={item.href}
+                className="text-sm/2 font-semibold text-white hover:text-amber-500"
+              >
+                {item.name}
+              </a>
+            ))}
+          </div>
+         
+        </nav>
+        <Dialog
+          open={mobileMenuOpen}
+          onClose={setMobileMenuOpen}
+          className="lg:hidden"
+        >
+          <div className="fixed inset-0 z-50" />
+          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div className="flex items-center justify-between">
+              <a href="#" className="-m-1.5 p-1.5">
+                <span className="sr-only">Your Company</span>
+                <img
+                  alt=""
+                  src={logo}
+                  className="h-8 w-auto"
+                />
+              </a>
+              <button
+                type="button"
+                onClick={() => setMobileMenuOpen(false)}
+                className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              >
+                <span className="sr-only">Close menu</span>
+                <XMarkIcon aria-hidden="true" className="size-6" />
+              </button>
+            </div>
+            <div className="mt-6 flow-root">
+              <div className="-my-6 divide-y divide-gray-500/10">
+                <div className="space-y-2 py-6">
+                  {navigation.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                    >
+                      {item.name}
+                    </a>
+                  ))}
+                </div>
+             
+              </div>
+            </div>
+          </DialogPanel>
+        </Dialog>
       </header>
-      {/*<!-- End Basic Navbar--> */}
-    </>
-  )
+     {Page}
+    </div>
+  );
 }
