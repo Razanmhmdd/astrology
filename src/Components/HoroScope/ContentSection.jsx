@@ -13,14 +13,14 @@ function ContentSection() {
         {/* <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-900 mb-4">
           ජ්‍යෝතිශය පාඨමාලාව
         </h2> */}
-        <ul className="list-disc text-gray-800 text-lg md:text-xl font-bold leading-relaxed pl-4 lg:pl-6 space-y-2">
-            <li>යෝග ශික්සන සැණකෙල අවුල පතන</li>
-           <li>වස්තු බවට ඉවත දැමූ ලෙඩින් හා නිවස ඉදිකිරිම සැනකළු කාලය</li>
-           <li>අධයාපනම මානස හා බුද්ධිය විමසුම</li>
-           <li>තහනම් අලුත් සෘතුන් රීතියටවම හා උපසම්මි වලට අලුත් කාලයේ</li>
-           <li>ඔබට දිදුලුනු ගෙත දෙනු විශාරද හා දිදුලුනු ගෙත දෙනු සැනසීම</li>
-           <li>අදමදි ශික්සන හා බල ශික්සන විශාරද</li>
-           <li>කේටි කාලයයි සැනසුව මාන ගෙවීමේ පත විමසුම</li>
+        <ul className="list-disc text-gray-800 text-lg md:text-3xl font-extralight leading-relaxed pl-4 lg:pl-6 space-y-2 sinhala-text tracking-wider">
+            <li>fhda. msysáï ioyd wod mdm</li>
+           <li>jia;=j Okh bvï foam eîï yd ksjdi bÈlsÍï ioyd iqn ld,hl</li>
+           <li>woHdmkh uki yd nqoaêh ms</li>
+           <li>yoyk wkqj iqÿiq /lshdjka yd Wiiaùï j,g wod</li>
+           <li>Tng ÈhqKqj f.k fok úhdmr yd ÈhqKqj f.k fok iqn ld,hka</li>
+           <li>wodhï úhoï yd mdvq ms</li>
+           <li>flá ld,hla ioyd ,nd fok f.dapr m, jd¾;dj ^rú n%yiam;s yd fikiqre .%y n, mEu</li>
         </ul>
       </div>
 

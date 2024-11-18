@@ -17,16 +17,17 @@ function ContentSection1() {
       {/* Text Section */}
       <div className="col-span-1 md:col-span-4 lg:col-span-6 flex flex-col justify-center items-center text-center lg:text-left">
         {/* Heading */}
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-900 mb-4">
-          ආසිරි නිවාස සැලසුම් සේවය
+        <h2 className="text-2xl md:text-3xl lg:text-3xl font-extralight text-gray-900 mb-4 sinhala-text tracking-wider">
+        wdisß ksjdi ie,iqï fiajh
+
         </h2>
-        <ul className="list-disc text-gray-800 text-lg md:text-xl font-bold leading-relaxed pl-4 lg:pl-6 space-y-2">
-          <li>වාස්තු විද්‍යාව අනුව ගෘහ සැලසුම් ඇදීම</li>
-          <li>දෝෂ සහිත නිවාස නිදහස් කර දීම</li>
-          <li>නිවාස ඵලදායිතාව වැඩිකර දීම</li>
-          <li>භූමි පරීක්ෂාව</li>
-          <li>සුභ මුහුර්ති කදා දීම</li>
-          <li>ඇස්තමේන්තු සෑදීමද</li>
+        <ul className="list-disc text-gray-800 text-lg md:text-3xl font-extralight leading-relaxed pl-4 lg:pl-6 space-y-2 sinhala-text tracking-wider">
+          <li>jdia;= úoHdj wkqj .Dy ie,iqï we§u</li>
+          <li>fodaI iys; ksjdi ksoyia lr §u          </li>
+          <li>ksjdi M,odhs;dj jeälr §u          </li>
+          <li>N+ñ mÍlaIdj          </li>
+          <li>iqN uqyq¾;s idod §u</li>
+          <li>weia;fïka;= iE§u</li>
         </ul>
       </div>
     </div>

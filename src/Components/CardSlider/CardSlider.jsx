@@ -210,7 +210,7 @@ const CardGridView = () => {
                 <h3 className="text-xl font-semibold text-purple-700 mb-2">
                   {card.title}
                 </h3>
-                <p>
+                <p className="sinhala-text">
                  {card.description}
                 </p>
               </div>

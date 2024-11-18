@@ -9,19 +9,20 @@ function Horo2() {
       {/* Text Section */}
       <div className="col-span-1 md:col-span-4 lg:col-span-6 flex flex-col justify-center items-center text-center lg:text-left">
         {/* Heading */}
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-900 mb-4">
-          ජ්‍යෝතිශය පාඨමාලාව
+        <h2 className="text-xl md:text-3xl lg:text-4xl font-extralight text-gray-900 mb-4 sinhala-text tracking-wider">
+        fcHda;sYh mdGud,dj
+
         </h2>
-        <ul className="list-disc text-gray-800 text-lg md:text-xl font-bold leading-relaxed pl-4 lg:pl-6 space-y-2">
-          <li>නිරයන දුෂ්ට කැන්දු සැදීම</li>
-          <li>තාව කැන්දු සැදීම</li>
-          <li>පලපල කථනය</li>
-          <li>ගුහ ලගයි ස්තුති අලම ගුහ මූර්ති සැදීම</li>
-          <li>පොරොහදමි පරිකථනය</li>
-          <li>නාමකරණය</li>
-          <li>වාස්තු විද්‍යාත ආභූෂණ සකස් කිරීම</li>
-          <li>කක‍්‍රිෂ්ණ මූර්ති භාව කේන්ද්‍ර සෑදීම සහ ඒ තුළින් පලාපල කතනයි</li>
-          <li>ශ‍්‍රිපති මූර්ති භාව කේන්ද්‍ර සෑදීම සහ ඒ තුළින් පලාපල කතනය</li>
+        <ul className="list-disc text-gray-800 text-lg md:text-3xl font-extralight leading-relaxed pl-4 lg:pl-6 space-y-2 sinhala-text tracking-wider">
+          <li>ksrhk o</li>
+          <li>Ndj flakaø iE§u          </li>
+          <li>m,dM, l:kh          </li>
+          <li>Y=N ,.ak iaMqG w,,d Y=N uQ¾;s iE§u          </li>
+          <li>fmdfrdkaoï mÍlaIdj          </li>
+          <li>kdulrKh          </li>
+          <li>jdia;= úoHdj wkqj ie,iqï we§u          </li>
+          <li>l%sIaK uQ¾;s Ndj flakaø iE§u iy tA </li>
+          <li>Y%sm;s uQ¾;s Ndj flakaø iE§u iy tA </li>
         </ul>
       </div>
 

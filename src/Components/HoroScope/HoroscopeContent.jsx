@@ -56,17 +56,16 @@ function ContentSection1() {
       {/* Text Section */}
       <div className="col-span-1 md:col-span-4 lg:col-span-6 flex flex-col justify-center items-center text-center lg:text-left">
         {/* Heading */}
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-900 mb-4">
-        ජ්‍යෝතිශය පාඨමාලාව
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-normal text-gray-800 mb-4 sinhala-text">
+        wdisß fcHd;sI fiajh
         </h2>
-        <ul className="list-disc text-gray-800 text-lg md:text-xl font-bold leading-relaxed pl-4 lg:pl-6 space-y-2">
-           <li>යොහෝ පිටිතී පද්ධති අදාල පැතලම</li>
-           <li>ඔබගේ විචාර ලක්ෂණ</li>
-           <li>විවාහය හා අලුත උප කාලය</li>
-           <li>බාන ය, රැකියා , ධනය</li>
-           <li>පොරොහදමි පරිකථනය</li>
-           <li>දරු පල විස්තර</li>
-           <li>ජීවිත කාලයට විශේෂ අතාල පලාපන</li>
+        <ul className="list-disc text-gray-800 text-lg md:text-3xl font-extralight leading-relaxed pl-4 lg:pl-6 space-y-2 sinhala-text tracking-wider ">
+           <li>fhda. msysàï ioyd wodmdm</li>
+           <li>Tnf.a pß; ,laIK</li>
+           <li>újdyh yd wod Yn ld,hka</li>
+           <li>Okh " /lshdj " úhdmdr</li>
+           <li>ore m, úia;r</li>
+           <li>Ôú; ld,hgu úfYaI wkd.; m,dm,</li>
         </ul>
       </div>
     </div>
