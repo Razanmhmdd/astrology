@@ -12,18 +12,18 @@ const About = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full max-w-4xl mb-12">
         <div className="flex flex-col items-center p-6 bg-white rounded-lg">
           <span className="text-3xl mb-2"><MdEmail/></span>
-          <h3 className="text-lg font-semibold text-blue-700">Email</h3>
-          <p className="text-gray-700">support@asiriastrology.com</p>
+          <h3 className="text-lg font-semibold text-purple-700">Email</h3>
+          <p className="text-gray-700">srisethastrologyofficial@gmail.com</p>
         </div>
         <div className="flex flex-col items-center p-6 bg-white rounded-lg">
           <span className="text-3xl mb-2"><MdWifiCalling3/></span>
-          <h3 className="text-lg font-semibold text-blue-700">Contact</h3>
-          <p className="text-gray-700">0779920181</p>
+          <h3 className="text-lg font-semibold text-purple-700">Contact</h3>
+          <p className="text-gray-700">077 224 25251</p>
         </div>
         <div className="flex flex-col items-center p-6 bg-white rounded-lg">
           <span className="text-3xl mb-2"><RiWhatsappFill/></span>
-          <h3 className="text-lg font-semibold text-blue-700">WhatsApp</h3>
-          <p className="text-gray-700">0718062905</p>
+          <h3 className="text-lg font-semibold text-purple-700">WhatsApp</h3>
+          <p className="text-gray-700">0772242525</p>
         </div>
       </div>
 
@@ -32,7 +32,7 @@ const About = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full max-w-4xl">
         {/* Card 1 */}
         <div className="p-6 bg-white rounded-lg shadow-md">
-          <h3 className="text-lg font-semibold text-blue-700 mb-2">Mr. Silva</h3>
+          <h3 className="text-lg font-semibold text-purple-700 mb-2">Mr. Silva</h3>
           <div className="flex items-center mb-4">
             <span className="text-yellow-500">★★★★★</span>
           </div>
@@ -44,7 +44,7 @@ const About = () => {
         
         {/* Card 2 */}
         <div className="p-6 bg-white rounded-lg shadow-md">
-          <h3 className="text-lg font-semibold text-blue-700 mb-2">Miss. Kaluarachchi</h3>
+          <h3 className="text-lg font-semibold text-purple-700 mb-2">Miss. Kaluarachchi</h3>
           <div className="flex items-center mb-4">
             <span className="text-yellow-500">★★★★★</span>
           </div>
@@ -55,7 +55,7 @@ const About = () => {
 
         {/* Card 3 */}
         <div className="p-6 bg-white rounded-lg shadow-md">
-          <h3 className="text-lg font-semibold text-blue-700 mb-2">Mr. Shantha</h3>
+          <h3 className="text-lg font-semibold text-purple-700 mb-2">Mr. Shantha</h3>
           <div className="flex items-center mb-4">
             <span className="text-yellow-500">★★★★★</span>
           </div>

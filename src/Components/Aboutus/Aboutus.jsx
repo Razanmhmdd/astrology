@@ -61,23 +61,19 @@ const AboutUs = () => {
           {/* Content Section */}
           <div className="md:w-1/2 md:pl-10 text-center md:text-left">
             <h2 className="text-3xl md:text-4xl font-bold text-amber-500 mb-4">
-            Message from Core Founder
+            අපට තොර ගතීමට වඩා සුදුසු වන්නේ කවුරුද?
             </h2>
-            <p className="text-gray-700 text-base md:text-lg mb-4">
-              Warm Greetings, <br />
-              Discover hidden gems and local favorites with personalized tours tailored just for you. 
-              Whether you're seeking adventure, culture, or culinary experiences, I’m here to make your 
-              journey unforgettable. Let’s explore together!
+          <p>
+              අපි ශ්‍රී ලංකාවේ අංක එකේව  සිංහල නානාවෙන් සිලයින් සෝන්දුර හියවීමෙ තේවාව සස්ථිනෙවා පුද්ගලයෙකුගේ අනාගත චිතය අවබෝධ කර ගැනීම සඳහා කේන්දර කියවීම පුරාණ ජි. ශාස්තරය වේ අපගේ දැව " සඳනාව කේන්දර" වේ අ වඩා හොඳ අවබෝධයක් ලබා ගැනීමට සහ අනාගතයට සුදානම් වීමට සබැදි කේන්දර කියවීම කම කෙනෙකුටම වඩා වැදගත් වේ අපි වසර ක් පුරාවට අගාව  ජෙහා දගාව නම් කරගෙන අපගේ සිංහල කේන්දර වාර්තාව (කේන්දර පලාපල සිංහල) කෙන්දරයක සියලුම අංග ආවරණය වන ටුකට වඩා වැඩි ඔබ අප සිga  සේවාව ලමා ගත් ඔබගේ විනය රැකියාව වෘය විවානයට හොඳ කාලය ව්‍යාන්තර ඥා x නාලය රැකියාවට කොඳ කාලය යනාදි කරනු ඇතමුන් හරන්නෙ අප විසින් සපයනු ලබන මාර්ගගත කේන්දුර කියවීමෙ සිංහල සේවාව ශ්‍රී ලංකාවේ වඩාත්ම විශ්වාසදායක යාතික සේවාවයි
             </p>
-            <p className="text-gray-800 text-base md:text-lg font-medium mb-4">
+            <p className="text-gray-800 text-base md:text-sm font-normal mb-4">
               Contact me: <br />
-              <a href="tel:+94773544300" className="hover:underline">+94773544300</a> <br />
-              <a href="tel:+94771181803" className="hover:underline">+94771181803</a>
+              <a href="tel:+94773544300" className="hover:underline">0772242525</a> <br />
             </p>
-            <p className="text-gray-700 text-base md:text-lg mb-4">
+            <p className="text-gray-700 text-base md:text-sm mb-4">
               Yours Sincerely, <br />
-              <span className="font-semibold text-gray-800">Mr. Naushad Mohamed</span> <br />
-              AHMA
+              <span className="font-normal text-gray-800">Astrologist</span> <br />
+              Sri Seth
             </p>
       
           </div>
