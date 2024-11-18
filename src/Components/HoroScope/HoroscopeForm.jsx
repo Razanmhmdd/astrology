@@ -12,7 +12,7 @@ const HoroscopeForm = () => {
       <div
         className="bg-white w-full max-w-lg p-6 md:p-8 lg:p-10 rounded-xl shadow-xl border-2 border-purple-500"
         style={{
-          margin: "2%", left:"5%"
+          margin: "10%", 
         }}
       >
         {/* Title */}

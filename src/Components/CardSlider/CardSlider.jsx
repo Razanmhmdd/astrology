@@ -188,7 +188,7 @@ const CardGridView = () => {
       style={{ backgroundImage: "url('/assets/image/nume.jpg')" }} // Path to your background image
     >
       {/* Overlay to reduce opacity */}
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="absolute inset-0 bg-black opacity-70"></div>
       
       {/* Content */}
       <div className="relative max-w-6xl mx-auto py-6 px-4">

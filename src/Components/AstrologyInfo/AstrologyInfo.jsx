@@ -7,7 +7,7 @@ const AstrologyInfo = () => {
       style={{ backgroundImage: 'url(/assets/image/num2.jpg)' }} // Replace with your image path
     >
       {/* Background overlay with reduced opacity */}
-      <div className="absolute inset-0 bg-black opacity-40"></div>
+      <div className="absolute inset-0 bg-black opacity-60"></div>
 
       <div className="flex flex-col justify-center items-center text-white px-4 sm:px-6 lg:px-10 w-full h-full relative z-10">
         {/* Heading */}
@@ -16,9 +16,9 @@ const AstrologyInfo = () => {
         </h2>
 
         {/* Content */}
-        <div className="space-y-4 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-justify max-w-3xl">
+        <div className="space-y-4 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-justify max-w-4xl mx-auto">
           <p>
-            ජ්‍යොනිපය ශාස්ත‍්‍රය පැරණිතම චාරිර වලින් එකකි. බුදු දහමේ දැක්වෙන්නේ
+            ජ්‍යොතිෂය ශාස්ත‍්‍රය පැරණිතම චාරිර වලින් එකකි. බුදු දහමේ දැක්වෙන්නේ
             මීට වසර (2600) කට පෙර "තවි නිසා" දෙව්ලොව සිට "සිද්ධාර්ථ" කුමරු ලෙස
             බුදුන් වහන්සේ උපත ලැබීමට අවශ්‍ය උපන් දිනය වේලාව සහ උපන් ස්ථානය
             තීරණය කළ බව නොරහසකි. එලෙසම ඉස්ලාමීය නව සඳ බැලීම මෙන්ම කතෝලික

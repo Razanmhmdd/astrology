@@ -22,8 +22,8 @@ const Home = () => {
     <ContentSection/>
     <ContentSection1/>
     <Horo2/>
-    <Planat/>
     <About/>
+    <Planat/>
     <AstrologyInfo/>
     <CardSlider/>
     <Footer/>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import foodImage from "/assets/image/about.jpg"
 const AboutUs = () => {
   return (
     <div className="bg-gray-100">
@@ -22,10 +22,9 @@ const AboutUs = () => {
         </div>
       </div>
 
-      {/* Content Section */}
-      <div className="container mx-auto px-4 py-12 sm:py-16 lg:py-20">
+      {/* <div className="container mx-auto px-4 py-12 sm:py-16 lg:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          {/* Image */}
+         
           <div className="flex justify-center md:justify-end">
             <img
               src="/path-to-your-profile-image.jpg"
@@ -34,7 +33,7 @@ const AboutUs = () => {
             />
           </div>
 
-          {/* Text Content */}
+         
           <div>
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
               අපට තොර ගතීමට වඩා සුදුසු වන්නේ කවුරුද?
@@ -47,7 +46,43 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
+      <section className="bg-gray-100 py-10 px-5 md:px-20">
+        <div className="container mx-auto flex flex-col md:flex-row items-center">
+          {/* Image Section */}
+          <div className="md:w-1/2 flex justify-center mb-6 md:mb-0">
+            <img
+              src={foodImage}
+              alt="Sri Lankan Authentic Food"
+              className="rounded-lg shadow-lg object-cover w-full h-80 md:h-[400px]"
+            />
+          </div>
+
+          {/* Content Section */}
+          <div className="md:w-1/2 md:pl-10 text-center md:text-left">
+            <h2 className="text-3xl md:text-4xl font-bold text-amber-500 mb-4">
+            Message from Core Founder
+            </h2>
+            <p className="text-gray-700 text-base md:text-lg mb-4">
+              Warm Greetings, <br />
+              Discover hidden gems and local favorites with personalized tours tailored just for you. 
+              Whether you're seeking adventure, culture, or culinary experiences, I’m here to make your 
+              journey unforgettable. Let’s explore together!
+            </p>
+            <p className="text-gray-800 text-base md:text-lg font-medium mb-4">
+              Contact me: <br />
+              <a href="tel:+94773544300" className="hover:underline">+94773544300</a> <br />
+              <a href="tel:+94771181803" className="hover:underline">+94771181803</a>
+            </p>
+            <p className="text-gray-700 text-base md:text-lg mb-4">
+              Yours Sincerely, <br />
+              <span className="font-semibold text-gray-800">Mr. Naushad Mohamed</span> <br />
+              AHMA
+            </p>
+      
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
