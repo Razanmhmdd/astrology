@@ -22,10 +22,10 @@ const Home = () => {
     <ContentSection/>
     <ContentSection1/>
     <Horo2/>
-    <About/>
     <Planat/>
     <AstrologyInfo/>
     <CardSlider/>
+    <About/>
     <Footer/>
     </div>
   )
