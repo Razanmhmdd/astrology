@@ -184,7 +184,7 @@ const CardGridView = () => {
 
   return (
     <div
-      className="relative bg-cover bg-center bg-no-repeat min-h-screen"
+      className="relative bg-cover bg-center bg-no-repeat min-h-screen text-sin"
       style={{ backgroundImage: "url('/assets/image/nume.jpg')" }} // Path to your background image
     >
       {/* Overlay to reduce opacity */}

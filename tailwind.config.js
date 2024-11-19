@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
-        // sinhala: ['4u-Ajantha', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'], // Default sans-serif font
+        asiri: ['4u-Asiri', 'sans-serif'], // Custom font with fallback
       },
     },
   },

@@ -28,7 +28,7 @@ function ContentSection1() {
       >
         {/* Heading */}
         <motion.h2
-          className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-600 mb-6"
+          className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-600 mb-6 text-sin"
           initial={{ scale: 0.8 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
@@ -38,7 +38,7 @@ function ContentSection1() {
 
         {/* List Items */}
         <motion.ul
-          className="list-disc text-gray-800 text-sm sm:text-base md:text-lg lg:text-2xl font-bold leading-relaxed pl-6 lg:pl-8 space-y-3 sinhala-text tracking-wide"
+          className="list-disc text-sin text-gray-800 text-sm sm:text-base md:text-lg lg:text-2xl font-bold leading-relaxed pl-6 lg:pl-8 space-y-3 sinhala-text tracking-wide"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}

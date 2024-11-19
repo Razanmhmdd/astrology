@@ -26,7 +26,7 @@ const HeroSection = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Animated Heading */}
         <motion.h1
-          className="text-balance text-4xl font-bold tracking-tight text-amber-400 sm:text-6xl lg:text-8xl"
+          className="text-balance text-4xl font-bold tracking-tight text-amber-400 sm:text-6xl lg:text-8xl text-sin"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -45,7 +45,7 @@ const HeroSection = () => {
 
         {/* Animated Paragraph */}
         <motion.p
-          className="sinhala-text mt-6 text-lg sm:text-xl lg:text-2xl font-medium text-white"
+          className="text-sin mt-6 text-lg sm:text-xl lg:text-2xl font-medium text-white"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 1 }}
@@ -62,7 +62,7 @@ const HeroSection = () => {
         >
           <a
             href="#"
-            className="rounded-md bg-amber-500 px-5 py-3 text-base font-semibold text-white shadow-md hover:bg-amber-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="  rounded-md bg-amber-500 px-5 py-3 text-base font-semibold text-white shadow-md hover:bg-amber-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Get started
           </a>

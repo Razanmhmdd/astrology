@@ -5,7 +5,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center px-4 py-10 bg-gradient-to-r from-violet-200 to-pink-200 min-h-screen">
+    <div className="flex flex-col items-center px-4 py-10 bg-gradient-to-r from-violet-200 to-pink-200 min-h-screen ">
       <h2 className="text-4xl font-semibold text-gold-500 mb-8 text-center">අපට අමතන්න</h2>
 
       {/* Contact Cards */}
@@ -28,10 +28,10 @@ const About = () => {
       </div>
 
       {/* Testimonials */}
-      <h2 className="text-4xl font-semibold text-gold-500 mb-8 text-center">අපගේ පාරිභෝගික අදහස්</h2>
+      <h2 className="text-4xl font-semibold text-gold-500 mb-8 text-center text-sin">අපගේ පාරිභෝගික අදහස්</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full max-w-4xl">
         {/* Card 1 */}
-        <div className="p-6 bg-white rounded-lg shadow-md">
+        <div className="p-6 bg-white rounded-lg shadow-md text-sin">
           <h3 className="text-lg font-semibold text-purple-700 mb-2">Mr. Silva</h3>
           <div className="flex items-center mb-4">
             <span className="text-yellow-500">★★★★★</span>
@@ -42,7 +42,7 @@ const About = () => {
         </div>
         
         {/* Card 2 */}
-        <div className="p-6 bg-white rounded-lg shadow-md">
+        <div className="p-6 bg-white rounded-lg shadow-md text-sin">
           <h3 className="text-lg font-semibold text-purple-700 mb-2">Miss. Kaluarachchi</h3>
           <div className="flex items-center mb-4">
             <span className="text-yellow-500">★★★★★</span>
@@ -53,7 +53,7 @@ const About = () => {
         </div>
 
         {/* Card 3 */}
-        <div className="p-6 bg-white rounded-lg shadow-md">
+        <div className="p-6 bg-white rounded-lg shadow-md text-sin">
           <h3 className="text-lg font-semibold text-purple-700 mb-2">Mr. Shantha</h3>
           <div className="flex items-center mb-4">
             <span className="text-yellow-500">★★★★★</span>

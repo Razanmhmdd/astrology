@@ -16,7 +16,7 @@ const HoroscopeForm = () => {
         }}
       >
         {/* Title */}
-        <h2 className="text-xl md:text-2xl font-bold text-center mb-4 text-purple-700 leading-snug">
+        <h2 className="text-xl md:text-2xl font-bold text-center mb-4 text-purple-700 leading-snug text-sin">
           අන්තිම වතාවට  මුළු හදහනම එකවර බලාගන්න
         </h2>
         <h2 className="text-xl md:text-2xl font-bold text-center mb-6 text-purple-700">

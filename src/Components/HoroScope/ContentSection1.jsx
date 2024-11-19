@@ -4,7 +4,7 @@ import typewriterImage from '/assets/image/nume.jpg';
 
 function ContentSection1() {
   return (
-    <div className="grid grid-cols-1 gap-6 md:grid-cols-8 lg:grid-cols-12 bg-gradient-to-r from-violet-200 to-pink-200 p-6 md:p-8 lg:p-12">
+    <div className="grid grid-cols-1 gap-6 md:grid-cols-8 lg:grid-cols-12 text-sin bg-gradient-to-r from-violet-200 to-pink-200 p-6 md:p-8 lg:p-12">
       {/* Typewriter Image */}
       <motion.div
         className="col-span-1 md:col-span-4 lg:col-span-6 flex justify-center items-center"

@@ -8,7 +8,7 @@ function ContentSection() {
     <div className="grid grid-cols-1 gap-6 md:grid-cols-8 lg:grid-cols-12 bg-gradient-to-r from-violet-200 to-pink-200 p-6 md:p-8 lg:p-12">
       
       {/* Text Section */}
-      <div className="col-span-1 md:col-span-4 lg:col-span-6 flex flex-col justify-center items-center text-center lg:text-left">
+      <div className="col-span-1 md:col-span-4 lg:col-span-6 flex flex-col justify-center items-center text-center lg:text-left text-sin">
         {/* Heading */}
        
         <ul className="list-disc text-gray-800 text-base md:text-lg lg:text-2xl font-bold leading-relaxed pl-4 md:pl-6 space-y-3 sinhala-text">

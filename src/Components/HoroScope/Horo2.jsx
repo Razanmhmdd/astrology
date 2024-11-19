@@ -3,12 +3,12 @@ import typewriterImage from '/assets/image/num3.jpg';
 
 function Horo2() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-gradient-to-r from-pink-200 to-violet-200 p-6 md:p-8 lg:p-12">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-gradient-to-r from-pink-200 to-violet-200 p-6 md:p-8 lg:p-12 text-sin">
       
       {/* Text Section */}
       <div className="flex flex-col justify-center items-center text-center md:text-left">
         {/* Heading */}
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-600 mb-6 sinhala-text tracking-wide">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-600 mb-6 sinhala-text tracking-wide ">
           ජ්‍යෝතිශය පාඨමාලාව
         </h2>
         
