@@ -10,17 +10,15 @@ function ContentSection() {
       {/* Text Section */}
       <div className="col-span-1 md:col-span-4 lg:col-span-6 flex flex-col justify-center items-center text-center lg:text-left">
         {/* Heading */}
-        {/* <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-900 mb-4">
-          ජ්‍යෝතිශය පාඨමාලාව
-        </h2> */}
-        <ul className="list-disc text-gray-800 text-lg md:text-3xl font-extralight leading-relaxed pl-4 lg:pl-6 space-y-2 sinhala-text tracking-wider">
-            <li>fhda. msysáï ioyd wod mdm</li>
-           <li>jia;=j Okh bvï foam eîï yd ksjdi bÈlsÍï ioyd iqn ld,hl</li>
-           <li>woHdmkh uki yd nqoaêh ms</li>
-           <li>yoyk wkqj iqÿiq /lshdjka yd Wiiaùï j,g wod</li>
-           <li>Tng ÈhqKqj f.k fok úhdmr yd ÈhqKqj f.k fok iqn ld,hka</li>
-           <li>wodhï úhoï yd mdvq ms</li>
-           <li>flá ld,hla ioyd ,nd fok f.dapr m, jd¾;dj ^rú n%yiam;s yd fikiqre .%y n, mEu</li>
+       
+        <ul className="list-disc text-gray-800 text-base md:text-lg lg:text-2xl font-bold leading-relaxed pl-4 md:pl-6 space-y-3 sinhala-text">
+            <li>යෝග පිහිටිම් සදහා අදාළ පලාප</li>
+           <li>වස්තුව ධනය ඉඩම් දේපළ ලැබීමේ හා නිවාස ඉදිකිරීම් සදහා සුබ කාලයක්</li>
+           <li>අදහපනය මනස හා බුද්ධිය පිළිබද</li>
+           <li>හදහන අනුව සුදුසු රැකියාවන් හා උසස්වීම් වලට අදාළ සුබ කාලයන්</li>
+           <li>ඔබට දියුණුව ගෙන දෙන යාපර හා දියුණුව ගෙන දෙන සුබ කාලයන්</li>
+           <li>අදායම් වියදම් හා පාඩු පිළිබද විස්තර</li>
+           <li>කෙටි කාලයක් සදහා ලබා දෙන ගෝචර පල වාර්තාව </li>
         </ul>
       </div>
 

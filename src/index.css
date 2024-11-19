@@ -5,12 +5,12 @@
 
 @font-face{
     font-family:'4u-Ajantha';
-    src: url('/src/assets/fonts/4u-Ajantha.ttf') format('truetype');
+    src: url('/fonts/4u-Ajantha.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 
-.sinhala-text{
-    font-family: '4u-Ajantha',sans-serif;
+.sinhala-text {
+    font-family: '4u-Ajantha', 'Arial', sans-serif;
 }

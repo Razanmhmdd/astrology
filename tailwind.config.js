@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
+        sinhala: ['4u-Ajantha', 'sans-serif'],
       },
     },
   },
