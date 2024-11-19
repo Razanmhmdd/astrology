@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face{
+/* @font-face{
     font-family:'4u-Ajantha';
     src: url('/fonts/4u-Ajantha.ttf') format('truetype');
     font-weight: normal;
@@ -13,4 +13,4 @@
 
 .sinhala-text {
     font-family: '4u-Ajantha', 'Arial', sans-serif;
-}
+} */
