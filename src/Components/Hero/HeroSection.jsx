@@ -26,7 +26,7 @@ const HeroSection = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Animated Heading */}
         <motion.h1
-          className="text-balance text-4xl font-bold tracking-tight text-amber-400 sm:text-6xl lg:text-8xl text-sin"
+          className="text-balance text-4xl font-bold tracking-tight text-amber-400 sm:text-6xl lg:text-9xl text-sin"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -34,7 +34,7 @@ const HeroSection = () => {
           ශ්‍රී සෙත්
           <br />
           <motion.span
-            className="text-purple-50 text-3xl sm:text-5xl lg:text-6xl"
+            className="text-purple-50 text-3xl sm:text-5xl lg:text-7xl tracking-wider"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
