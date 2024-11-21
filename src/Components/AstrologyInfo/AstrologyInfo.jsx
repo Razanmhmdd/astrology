@@ -11,7 +11,7 @@ const AstrologyInfo = () => {
 
       <div className="flex flex-col justify-center items-center text-white px-4 sm:px-6 lg:px-10 w-full h-full relative z-10 text-sin">
         {/* Heading */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4 text-center text-amber-500">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4 text-center text-amber-500 mt-16">
           ජ්‍යොතිෂය යනු කුමක් ද?
         </h2>
 
