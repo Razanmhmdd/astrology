@@ -47,7 +47,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div> */}
-      <section className="bg-gray-100 py-10 px-5 md:px-20">
+      <section className="bg-purple-100 py-10 px-5 md:px-20">
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           {/* Image Section */}
           <div className="md:w-1/2 flex justify-center mb-6 md:mb-0">
@@ -60,19 +60,23 @@ const AboutUs = () => {
 
           {/* Content Section */}
           <div className="md:w-1/2 md:pl-10 text-center md:text-left">
-            <h2 className="text-3xl md:text-4xl font-bold text-amber-500 mb-4">
-            අපට තොර ගතීමට වඩා සුදුසු වන්නේ කවුරුද?
+            <h2 className="text-3xl md:text-4xl font-light text-purple-500 mb-4 text-sin">
+            wmg f;dr .;Sug jvd iqÿiq jkafka ljqreo@
             </h2>
-          <p>
-              අපි ශ්‍රී ලංකාවේ අංක එකේව  සිංහල නානාවෙන් සිලයින් සෝන්දුර හියවීමෙ තේවාව සස්ථිනෙවා පුද්ගලයෙකුගේ අනාගත චිතය අවබෝධ කර ගැනීම සඳහා කේන්දර කියවීම පුරාණ ජි. ශාස්තරය වේ අපගේ දැව " සඳනාව කේන්දර" වේ අ වඩා හොඳ අවබෝධයක් ලබා ගැනීමට සහ අනාගතයට සුදානම් වීමට සබැදි කේන්දර කියවීම කම කෙනෙකුටම වඩා වැදගත් වේ අපි වසර ක් පුරාවට අගාව  ජෙහා දගාව නම් කරගෙන අපගේ සිංහල කේන්දර වාර්තාව (කේන්දර පලාපල සිංහල) කෙන්දරයක සියලුම අංග ආවරණය වන ටුකට වඩා වැඩි ඔබ අප සිga  සේවාව ලමා ගත් ඔබගේ විනය රැකියාව වෘය විවානයට හොඳ කාලය ව්‍යාන්තර ඥා x නාලය රැකියාවට කොඳ කාලය යනාදි කරනු ඇතමුන් හරන්නෙ අප විසින් සපයනු ලබන මාර්ගගත කේන්දුර කියවීමෙ සිංහල සේවාව ශ්‍රී ලංකාවේ වඩාත්ම විශ්වාසදායක යාතික සේවාවයි
+          <p className="text-sin ">
+            {"wms › ,xldfõ wxl tfla fcHd;sI fiajhhs’ wms isxy, NdIdfjka Tka,hska flakaor lshùfï fiajdj imhkjd’ mqoa.,fhl=f.a wkd.; Ôú;h wjfndaO lr .ekSu i|yd flakaor lshùu mqrdK Êfhda;s# Ydia;arh fõ’ wmf.a oelau —iEu ñksfil= i|ydu flakaor— fõ’ wkd.;h .ek jvd fyd| wjfndaOhla ,nd .ekSug iy wkd.;hg iQodkï ùug ine¢ flakaor lshùu iEu flfkl=gu jvd jeo.;a fõ’ wms jir 25la mqrdjg wkdjels imhkafka fcHd;sI oYdj mokï lrf.khs’ wmf.a isxy, flakaor jd¾;dj ^flakaor m,dm, isxy,& flakaorhl ish¨u wx. wdjrKh jk msgq 30lg jvd jeäh’ Tn wmf.a Tka,hska fcHda;s# Ydia;%Sh fiajdj ,nd .;a miq wms Tnf.a újdyh” /lshdj” jD;a;sh” újdyhg fyd| ld,h” jHdmdr i|yd fyd| ld,h” /lshdjg fyd| ld,h hkd§ lreKq we;=<;a lrkafkuq’ wm úiska imhkq ,nk ud¾..; flakaor lshùfï isxy, fiajdj › ,xldfõ jvd;au úYajdiodhl fcHd;sI fiajdjhs’"}
             </p>
-            <p className="text-gray-800 text-base md:text-sm font-normal mb-4">
+            <br/>
+            <p className="text-sin ">
+            {"jeä úia;r iy ksjerÈ wkdjels iys; Tka,hska flakaor isxy, Tng ,nd .; yels tlu ia:dkh fuhhs’ › ,dxlSh fcHd;sI m%;sl¾u ÿIalr;d wvq lr .ekSu i|yd nqÿoyfï mQcdj u; mokï fõ ^isxyf,ka wm, f,i ye¢kafõ& mQcd fjkqjg wms ks¾foaY lrkafka ÿIalr;d uÕyrjd .ekSu i|yd ^piritical& úi÷ï ^isxyf,ka wm, f,i ye¢kafõ&’ Tn ì;a ;rej fyda fcHd;sI rdYs pl%h isxyf,ka ,.akh f,i y÷kajk w;r flakaorfha msysàu wkqj Tfí Ôú;h ms<sn| jeä úia;r imhhs’ tlu ckau ;drldj fyda fcHd;sI rdYs pl%h isxy,fha ,.akh f,i ye¢kaùu o flakaorfha msysàu wkqj úúO o;a; imhhs’"}
+            </p>
+            <p className="text-gray-800 text-base md:text-sm font-semibold mb-4">
               Contact me: <br />
               <a href="tel:+94773544300" className="hover:underline">0772242525</a> <br />
             </p>
             <p className="text-gray-700 text-base md:text-sm mb-4">
               Yours Sincerely, <br />
-              <span className="font-normal text-gray-800">Astrologist</span> <br />
+              <span className="font-semibold text-gray-800">Astrologist</span> <br />
               Sri Seth
             </p>
       

@@ -21,7 +21,7 @@ const ContactUs = () => {
           </p>
         </div>
       </div>
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4">
+      <div className="min-h-screen bg-purple-100 flex items-center justify-center px-4">
       <div className="max-w-4xl w-full bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row">
         {/* Contact Details */}
         <div className="md:w-1/2 p-4 border-r border-gray-200">

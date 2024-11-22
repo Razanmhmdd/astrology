@@ -6,7 +6,8 @@ import { RiWhatsappFill } from "react-icons/ri";
 const About = () => {
   return (
     <div className="flex flex-col items-center px-4 py-10 bg-gradient-to-r from-violet-200 to-pink-200 min-h-screen ">
-      <h2 className="text-4xl font-semibold text-gold-500 mb-8 text-center">අපට අමතන්න</h2>
+      <h2 className="text-4xl font-medium text-gold-500 mb-8 text-center text-sin"> wmg wu;kak
+      </h2>
 
       {/* Contact Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full max-w-4xl mb-12">
@@ -28,38 +29,39 @@ const About = () => {
       </div>
 
       {/* Testimonials */}
-      <h2 className="text-4xl font-semibold text-gold-500 mb-8 text-center text-sin">අපගේ පාරිභෝගික අදහස්</h2>
+      <h2 className="text-4xl font-normal text-gold-500 mb-8 text-center text-sin">wmf.a mdßfNda.sl woyia
+      </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full max-w-4xl">
         {/* Card 1 */}
-        <div className="p-6 bg-white rounded-lg shadow-md text-sin">
+        <div className="p-6 bg-white rounded-lg shadow-md ">
           <h3 className="text-lg font-semibold text-purple-700 mb-2">Mr. Silva</h3>
           <div className="flex items-center mb-4">
             <span className="text-yellow-500">★★★★★</span>
           </div>
-          <p className="text-gray-700">
-          ඔබගේ සවිස්තරාත්මක ජෝතිෂ්‍ය වාර්තාවට ස්තූතියි. එය මට මඟපෙන්වීම සහ ආනුභාවය අවශ්‍ය විටෙක මට යොමු කළ හැකි වටිනා සම්පතකි. ඔබේ තීක්ෂ්ණ බුද්ධිය මගේ ජීවිතයට ධනාත්මක බලපෑමක් ඇති කර ඇත
+          <p className="text-gray-500 text-sin">
+            {"Tnf.a iúia;rd;aul fcda;sIH jd¾;djg ia;+;shs' th ug uÕfmkaùu iy wdkqNdjh wjYH úfgl ug fhduq l< yels jákd iïm;ls' Tfí ;SlaIaK nqoaêh uf.a Ôú;hg Okd;aul n,mEula we;s lr we;'"}
           </p>
         </div>
         
         {/* Card 2 */}
-        <div className="p-6 bg-white rounded-lg shadow-md text-sin">
+        <div className="p-6 bg-white rounded-lg shadow-md ">
           <h3 className="text-lg font-semibold text-purple-700 mb-2">Miss. Kaluarachchi</h3>
           <div className="flex items-center mb-4">
             <span className="text-yellow-500">★★★★★</span>
           </div>
-          <p className="text-gray-700">
-          මම සම්පූර්ණයෙන්ම ජෝතිෂ්‍ය අනාවැකි මත තීරණ ගන්නේ නැහැ. නමුත් ආසිරි ජ්‍යොතිෂ්‍ය වාර්තාව මගේ ජීවිතයේ සහ අනාගතයේ විවිධ පැති ගැන තීක්ෂ්ණ බුද්ධියක් ලබා දුන්නේය. ඔබගේ සේවයට ස්තුතියි.
+          <p className="text-gray-500 text-sin">
+          {"uu iïmQ¾Kfhkau fcda;sIH wkdjels u; ;SrK .kafka keye' kuq;a wdisß fcHd;sIH jd¾;dj uf.a Ôú;fha iy wkd.;fha úúO me;s .ek ;SlaIaK nqoaêhla ,nd ÿkafkah' Tnf.a fiajhg ia;=;shs'"}
           </p>
         </div>
 
         {/* Card 3 */}
-        <div className="p-6 bg-white rounded-lg shadow-md text-sin">
+        <div className="p-6 bg-white rounded-lg shadow-md ">
           <h3 className="text-lg font-semibold text-purple-700 mb-2">Mr. Shantha</h3>
           <div className="flex items-center mb-4">
             <span className="text-yellow-500">★★★★★</span>
           </div>
-          <p className="text-gray-700">
-          මට සම්පූර්ණ සහ නිවැරදි කේන්දර අනාවැකි වාර්තාව ලැබුණා. මට මඟ පෙන්වීම සහ ආශ්වාදය අවශ්‍යයි. ඔබේ තීක්ෂ්ණ බුද්ධිය මගේ ජීවිතයට ධනාත්මක බලපෑමක් ඇති කර ඇත. පැය 24ක් ඇතුළත සවිස්තර වාර්තාවක් ලබා දීම ගැන ස්තුතියි
+          <p className="text-gray-500 text-sin">
+          {"ug iïmQ¾K iy ksjerÈ flakaor wkdjels jd¾;dj ,enqKd' ug uÕ fmkaùu iy wdYajdoh wjYHhs' Tfí ;SlaIaK nqoaêh uf.a Ôú;hg Okd;aul n,mEula we;s lr we;' meh 24la we;=<; iúia;r jd¾;djla ,nd §u .ek ia;=;shs'"}
           </p>
         </div>
       </div>
