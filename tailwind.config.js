@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Poppins', 'sans-serif'], // Default sans-serif font
-        asiri: ['4u-Asiri', 'sans-serif'], // Custom font with fallback
+        basuru: ['Basuru', 'sans-serif'], // Custom font with fallback
       },
     },
   },

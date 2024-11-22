@@ -28,27 +28,27 @@ function ContentSection1() {
       >
         {/* Heading */}
         <motion.h2
-          className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-600 mb-6"
+          className="text-2xl md:text-3xl lg:text-4xl font-medium text-gray-600 mb-6"
           initial={{ scale: 0.8 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          ශ්‍රී සෙත් නිවාස සැලසුම් සේවය
+       Y%S fi;a ksjdi ie,iqï fiajh
         </motion.h2>
 
         {/* List Items */}
         <motion.ul
-          className="list-disc text-gray-800 text-sm sm:text-base md:text-lg lg:text-2xl font-bold leading-relaxed pl-6 lg:pl-8 space-y-3 sinhala-text tracking-wide"
+          className="list-disc text-gray-800 text-sm sm:text-base md:text-lg lg:text-2xl font-medium leading-relaxed pl-6 lg:pl-8 space-y-3 sinhala-text tracking-wide"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}
         >
-          <li>වාස්තු විද්‍යාව අනුව ගෘහ සැලසුම් ඇදීම</li>
-          <li>දෝෂ සහිත නිවාස නිදහස් කර දීම</li>
-          <li>නිවාස ඵලදායිතාව වැඩිකර දීම</li>
-          <li>භූමි පරීක්ෂාව</li>
-          <li>සුභ මුහුර්ති සාදා දීම</li>
-          <li>ඇස්තමේන්තු සෑදීම</li>
+          <li>{"jdia;= úoHdj wkqj .Dy ie,iqï we§u"}</li>
+          <li>fodaI iys; ksjdi ksoyia lr §u</li>
+          <li>ksjdi M,odhs;dj jeälr §u</li>
+          <li>NQñ mÍlaIdj</li>
+          <li>iqN uqyq¾;s idod §u</li>
+          <li>weia;fïka;= iE§u</li>
         </motion.ul>
       </motion.div>
     </div>

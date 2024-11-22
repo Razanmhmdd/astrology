@@ -8,21 +8,21 @@ function Horo2() {
       {/* Text Section */}
       <div className="flex flex-col justify-center items-center text-center md:text-left">
         {/* Heading */}
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-600 mb-6 sinhala-text tracking-wide ">
-          ජ්‍යෝතිශය පාඨමාලාව
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium text-gray-600 mb-6 sinhala-text tracking-wide ">
+        fcHda;sYh mdGud,dj
         </h2>
         
         {/* List Items */}
-        <ul className="list-disc text-gray-800 text-base md:text-lg lg:text-2xl font-bold leading-relaxed pl-4 md:pl-6 space-y-3 sinhala-text">
-          <li>නිරයන දළ කේන්ද්‍ර සෑදීම</li>
-          <li>භාව කේන්ද්‍ර සෑදීම</li>
-          <li>පලාඵල කථනය</li>
-          <li>ශුභ ලග්න ස්වුඨ අලලා ශුභ මූර්ති සෑදීම</li>
-          <li>පොරොන්දම් පරීක්ෂාව</li>
-          <li>නාමකරණය</li>
-          <li>වාස්තු විද්‍යාව අනුව සැලසුම් ඇදීම</li>
-          <li>ක‍්‍රිෂ්ණ මූර්ති භාව කේන්ද්‍ර සෑදීම සහ ඒ තුළින් පලාපල කතනය</li>
-          <li>ශ‍්‍රිපති මූර්ති භාව කේන්ද්‍ර සෑදීම සහ ඒ තුළින් පලාපල කතනය</li>
+        <ul className="list-disc text-gray-800 text-base md:text-lg lg:text-2xl font-medium leading-relaxed pl-4 md:pl-6 space-y-3 sinhala-text">
+          <li>{" ksrhk o< flakao% iE§u"}</li>
+          <li>Ndj flakao% iE§u</li>
+          <li>m,dM, l:kh</li>
+          <li>YqN ,.ak iajqG w,,d YqN uQ¾;s iE§u</li>
+          <li>fmdfrdkaoï mÍlaIdj</li>
+          <li>kdulrKh</li>
+          <li>jdia;= úoHdj wkqj ie,iqï we§u</li>
+          <li>{"C%sIaK uQ¾;s Ndj flakao% iE§u iy ta ;=<ska m,dm, l;kh"}</li>
+          <li>{"Y‍%sm;s uQ¾;s Ndj flakao% iE§u iy ta ;=<ska m,dm, l;kh"}</li>
         </ul>
       </div>
 

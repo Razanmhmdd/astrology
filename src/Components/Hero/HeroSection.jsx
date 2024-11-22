@@ -26,12 +26,12 @@ const HeroSection = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Animated Heading */}
         <motion.h1
-          className="text-balance text-4xl font-bold tracking-tight text-amber-400 sm:text-5xl lg:text-9xl text-sin"
+          className="text-balance text-4xl font-bold  text-amber-400 sm:text-5xl lg:text-9xl text-sin "
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          ශ්‍රී සෙත්
+            Y%S fi;a
           <br />
           <motion.span
             className="text-purple-50 text-3xl sm:text-5xl lg:text-7xl tracking-wider"
@@ -50,8 +50,8 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 1 }}
         >
-          අරමුණක් ඇති විටෙක පෙරමුණක් සැදෙනු ඇත. පෙරමුණේ යන අයගේ ජීවිතය සාක්ෂාත් වනු ඇත
-        </motion.p>
+      wruqKla we;s úfgl fmruqKla iefokq we;' fmruqfKa hk whf.a Ôú;h idlaId;a jkq we;
+      </motion.p>
 
         {/* Animated Button */}
         <motion.div
