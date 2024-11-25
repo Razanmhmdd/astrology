@@ -26,7 +26,7 @@ const CardGridView = () => {
     { id: 8, image: img8, title: "වෘශ්චික", link: "/zodiac/vrishchika","description": "jDYaÑl úiska ixfla;j;a lrk ,o\" maÆfgda iy wÕyre úiska md,kh lrk ,o c, ,l=Kls'. Tjqkaf.a ;Sõr;djh iy wdYdj i|yd marisoaO\" jDYaÑl wNsryia\" wêIaGdkYS,S iy iïm;aodhl mqoa.,hka fõ'. yeÕSïj, .eUqrla iy n,j;a nqoaêhla we;s Tjqka ieÕjqKq i;Hhka wkdjrKh lr .ekSug iy Ôú;fha ixlS¾K;d ießieÍug olaIhs'. Tjqkaf.a mßj¾;kSh iajNdjh Tjqkag w¿ j,ska keÕS fjk ljrodg;a jvd Yla;su;a ùug bv i,ihs"},
     { id: 9, image: img9, title: "ධනු", link: "/zodiac/dhanu" ,"description": "Okq\" ÿkqjdhd úiska ksfhdackh lrkq ,nkafka íryiam;s úiska md,kh lrkq ,nk .sks ,l=Kls'. fuu ,l=K hgf;a Wmka wh YqNjd§\" úlarudkaú; iy od¾Yksl h'. ksoyig iy .fõIKhg we,aula we;s Okq rdYsh hkq Ôjk .ufka wre; iy i;Hh fidhk iajNdúl bnd.df;a hk whhs'. Tjqkaf.a úfkdaoldó wd;auh iy fndajk Woafhda.h kj w;aoelSï je,| .ekSug iy Tjqkaf.a laIs;sch mq¿,a lsÍug wka whj fmd<Ujhs'.",},
     { id: 10, image: img10, title: "මකර", link: "/zodiac/makara","description": "uqyqÿ)t¿jd úiska ixfla;j;a lrk ,o ulr ,.akh\" fikiqre úiska md,kh lrkq ,nk mD:sú ,l=Kls'. Tjqkaf.a wNs,dIh\" úkh iy m%dfhda.sl;ajh i|yd m%isoaO\" ulr ,.akh rdYs pl%fha fjfyi uykais ù jev lrk wh fõ'. j.lSï iy fkdmiqng W;aidyh ms<sn| oeä yeÕSulska hq;=j\" Tjqka ;u wruqKq lrd <Õd ùug iy wkd.;h i|yd iqrlaIs; mokula f.dvkÕd .ekSug lemù isá;s'. Tjqkaf.a bjis,sjka; iy wêIaGdkYS,S iajNdjh Tjqkaf.a ish¨ lghq;=j, id¾:l;ajh iy;sl lrhs'.", },
-    { id: 12, image: img12, title: "කුම්භ", link: "/zodiac/kumbha" ,"description": "c,)orkakd úiska ksfhdackh lrk l=ïN\" hqf¾kia iy fikiqre úiska md,kh lrk jdhq ,l=Kls'. fuu ,l=K hgf;a Wmka mqoa.,hka iajdëk\" mar.;sYS,S iy udkqISh fõ'. ;SlaIaK nqoaêhla iy ler,sldr wd;auhla we;s\" Aquarians iudc wruqKq fjkqfjka iy kfjda;amdokhka je,| .kakd ¥ro¾YS fõ'. Tjqkaf.a úflakao%sh;ajh iy m%Njh Tjqka jgd f,dalh fjkia lsÍug iy úma,jhla we;s lrhs'.",},
+    { id: 12, image: img12, title: "කුම්භ", link: "/zodiac/kumbha" ,  description: "c,)orkakd úiska ksfhdackh lrk l=ïN hqf¾kia iy fikiqre úiska md,kh lrk jdhq ,l=Kls' fuu ,l=K hgf;a Wmka mqoa.,hka iajdëk mar.;sYS,S iy udkqISh fõ' ;SlaIaK nqoaêhla iy ler,sldr wd;auhla we;s <span>Aquarians</span> iudc wruqKq fjkqfjka iy kfjda;amdokhka je,| .kakd ¥ro¾YS fõ' Tjqkaf.a úflakao%sh;ajh iy m%Njh Tjqka jgd f,dalh fjkia lsÍug iy úma,jhla we;s lrhs'"} ,
     { id: 11, image: img11, title: "මීන", link: "/zodiac/meena" ,"description": "u;aiahhd úiska ixfla;j;a lrk ,o ók\" fkmapQka iy íryiam;s úiska md,kh lrk c, ,l=Kls'. Tjqkaf.a wkqlïmdj\" nqoaêh iy mßl,amkh i|yd m%isoaO\" ók rdYs pl%fha isysk olskakka iy iqj lrkakka fõ' há is;g iy wOHd;añl lafIa;%hg .eUqre iïnkaOhla we;s Tjqka wka whj ;uka fj;g weo .kakd woaNQ; m%fndaOhla we;' Tjqkaf.a mrd¾:ldó iajNdjh iy ixfõ§ yoj; Tjqka f,dalhg wdf,dalh iy iqjh f.k fok iajNdúl ixfõokhka njg m;a lrhs'.",},
     
   ];
@@ -67,6 +67,7 @@ const CardGridView = () => {
           ))}
         </div>
       </div>
+
     </div>
   );
 };

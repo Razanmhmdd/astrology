@@ -11,6 +11,7 @@ import Footer from '../Footer/Footer'
 import ContentSection1 from '../HoroScope/ContentSection1'
 import Example from '../Navbar/Navbar'
 import HeroSection from '../Hero/HeroSection'
+import Cardslider1 from '../CardSlider/Cardslider1'
 const Home = () => {
   return (
     <div>
@@ -24,7 +25,8 @@ const Home = () => {
     <Horo2/>
     <Planat/>
     <AstrologyInfo/>
-    <CardSlider/>
+    {/* <CardSlider/> */}
+    <Cardslider1/>
     <About/>
     <Footer/>
     </div>

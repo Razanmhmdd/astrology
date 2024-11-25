@@ -33,15 +33,16 @@ const HeroSection = () => {
       >
         Y%S fi;a
         <br />
+        </motion.h1>
         <motion.span
-          className="text-purple-50 text-5xl sm:text-5xl lg:text-7xl "
+          className="text-purple-50 text-5xl sm:text-5xl lg:text-7xl font-bold  "
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
          ASTROLOGY
         </motion.span>
-      </motion.h1>
+     
 
 
         {/* Animated Paragraph */}
