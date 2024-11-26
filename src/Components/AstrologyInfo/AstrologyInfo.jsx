@@ -17,7 +17,7 @@ const AstrologyInfo = () => {
         </h2>
 
         {/* Content */}
-        <div className="space-y-4 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-justify max-w-4xl mx-auto font-normal">
+        <div className="space-y-4 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-justify max-w-4xl mx-auto font-normal mb-5">
           <p className='sinhala-text  '>
             {"fcHd;sIh Ydia;arh mer‚;u pdß;ar j,ska tlls’ nqÿoyfï oelafjkafka óg jir ^2600& lg fmr —;õ;sid— foõf,dj isg —isoaOd¾:— l=ure f,i nqÿka jykafia Wm; ,eîug wjYH Wmka Èkh” fõ,dj iy Wmka ia:dkh ;SrKh l< nj fkdryils’ tf,iu bia,dóh kj i| ne,Su fukau lf;da,sl wd.u ;=<o fcHd;sIhg hï hï l%uj,ska m%;s,dN ,efnk wjia:d ;sfí’ tA wkqj n,k l, fcHd;sIh wkdÈu;a ld,hl isg ñksid úiska úúO wruqKq i|yd Ndú; lr we;’ b;ska ñksiqka f;areï f.k we;af;a wdldY jia;+kaf.a pl%” .%yf,dal iy ;re iy mDÓúfha pl% w;r iyiïnkaOhla we;s njhs’ i| iy iQ¾hhd wmf.a Èk o¾Yk kshdukh lrk w;r” wyfia is;shu keúhka iy ixpdrlhska ld,h mqrdjg uÕ fmkajhs’ fcHd;sIh ngysr yd fmrÈ. ixialD;Ska flfrys o úYd, n,mEula we;s lrk úoHdjls’ tA wkqj” fcHda;s# Ydia;%{hska fcHd;sIh mqoa.,hdf.a Ôú;hg n,mdk wdldrh iy Tyqf.a ckau ;drldj ^rdYs pl%h& f;areï .ekSug fuj,ula f,i Ndú;d lrhs’"}
             </p>

@@ -13,18 +13,18 @@ import img10 from '/assets/image/horo/13.webp';
 import img11 from '/assets/image/horo/14.webp';
 const Cardslider1 = () => {
   return (
-    <div className="px-8 py-8 bg-purple-100">
-        <div className="text-center mb-8">
-        <h1 className="text-2xl sm:text-3xl font-bold text-sin text-gray-800">
-          ලග්න අභිරහස් විවෘත කිරීම
+    <div className="px-8 py-8 bg-purple-100 mt-5">
+        <div className="text-center mb-12">
+        <h1 className="text-2xl sm:text-3xl font-medium text-sin text-gray-800">
+        ,.ak wNsryia újD; lsÍu
         </h1>
-        <p className="text-gray-600 mt-2 text-sm sm:text-base">
-          ඔබේ ලග්න ගුණාංග සහ අනාවැකි සොයා ගන්න
+        <p className="text-gray-600 mt-2 text-lg sm:text-base text-sin">
+        Tfí ,.ak .=Kdx. iy wkdjels fidhd .kak
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6 py-4 ">
         {/* Card 1 */}
-        <div className="max-w-sm rounded overflow-hidden shadow-lg bg-slate-100">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50">
           <div className="w-full h-64">
             <img
               className="w-full h-full object-cover"
@@ -69,7 +69,7 @@ const Cardslider1 = () => {
           <div className="px-6 py-4 text-sin">
             <div className="font-bold text-xl mb-2">මිථුන</div>
             <p className="text-gray-700 text-justify">
-            {"ksjqka orejka ksfhdackh lrk ñ:qk nqO .%yhd úiska md,kh lrkq ,nk jd; rdYshls. Tjqkaf.a nyqld¾h;dj, l=;=y,h iy nqoaêh i|yd marisoaêhla Wiq,k ñ:qk rdYs plarfha iudc iuk¨ka fõ. Tjqka ;shqKq nqoaêhla we;s w;r mq¿,a mrdihl ud;Dld Tiafia iÔù ixjdoj, fh§ug leu;shs. iyc wkqj¾;kh ùfï yelshdjla iuÕska, ñ:qk ,.akh úúO mßirhka ;=< iuDoaêu;a jk w;r nyq ld¾hhkays úYsIag;ajh orhs."}
+            {"ksjqka orejka ksfhdackh lrk ñ:qk ()nqO .%yhd úiska md,kh lrkq ,nk jd; rdYshls. Tjqkaf.a nyqld¾h;dj, l=;=y,h iy nqoaêh i|yd marisoaêhla Wiq,k ñ:qk rdYs plarfha iudc iuk¨ka fõ. Tjqka ;shqKq nqoaêhla we;s w;r mq¿,a mrdihl ud;Dld Tiafia iÔù ixjdoj, fh§ug leu;shs. iyc wkqj¾;kh ùfï yelshdjla iuÕska, ñ:qk ,.akh úúO mßirhka ;=< iuDoaêu;a jk w;r nyq ld¾hhkays úYsIag;ajh orhs."}
             </p>
           </div>
         </div>
@@ -86,12 +86,13 @@ const Cardslider1 = () => {
           <div className="px-6 py-4 text-sin">
             <div className="font-bold text-xl mb-2">කටක</div>
             <p className="text-gray-700 text-justify">
-            {"lgl úiska ixfla;j;a lrk ,o ms<sldj hkq pkaoarhd úiska md,kh lrkq ,nk c, ,l=Kls'. fuu ,.akh hgf;a Wm; ,nk mqoa.,hka .eUqßka nqoaêu;a fmdaIKh iy wdrlaIs; fõ'. Yla;su;a Ñ;a;fõ.Sh nqoaêh iuÕ ms<sld hkq mjq, iy ksji w.h lrk ixfõ§ ijkafokakka fõ'. Tjqkaf.a ie,ls,su;a iajNdjh iy mlaImd;S;ajh Tjqka iajNdúl /ljrK lrkakka njg m;a lrhs. Tjqka wdorh lrk whg iyfhda.h iy iekiSu ,nd §ug ieuúgu iQodkï'."}
-            </p>
+  lgl úiska ixfla;j;a lrk &quot;o ms&lt;sldj hkq pkaoarhd úiska md&quot;kh lrkq &quot;nk c&quot; &quot;l=Kls&#39;&#39; fuu &#39;akh hgf;a Wm; &quot;nk mqoa&#39;&quot;hka &#39;eUqßka nqoaêu;a fmdaIKh iy wdrlaIs; fõ&#39;&#39; Yla;su;a Ñ;a;fõ&#39;Sh nqoaêh iuÕ ms&lt;sld hkq mjq&quot; iy ksji w&#39;h lrk ixfõ§ ijkafokakka fõ&#39;&#39; Tjqkaf&#39;a ie&quot;ls&quot;su;a iajNdjh iy mlaImd;S;ajh Tjqka iajNdúl $ljrK lrkakka njg m;a lrhs&#39; Tjqka wdorh lrk whg iyfhda&#39;h iy iekiSu &quot;nd §ug ieuúgu iQodkï&#39;&#39;
+</p>
+
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6 py-4">
         {/* Card 1 */}
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-slate-100">
           <div className="w-full h-64">
@@ -104,7 +105,7 @@ const Cardslider1 = () => {
           <div className="px-6 py-4 text-sin">
             <div className="font-bold text-xl mb-2">සිංහ</div>
             <p className="text-gray-700 text-justify">
-            isxy ksfhdackh lrk ,sfhda hkq iQ¾hhd úiska md,kh lrkq ,nk .sks ,l=Kls'. fuu ,l=K hgf;a Wmka wh úYajdijka;" ;ahd.YS,S iy wdl¾IKSh kdhlhka fõ'. kdgHuh yelshdjla iys;j" ,sfhda Tjqka hk ´kEu ;ekl wjOdkh fhduq lr wjOdkhg ,la fõ'. Tjqkaf.a WKqiqu iy mlaImd;S;ajh wka whg wdiajdohla ,nd fok w;r" Tjqka jgd isák wh kÕd isgqùug iy iún, .ekaùug iyc yelshdjla we;
+            isxy ksfhdackh lrk ,sfhda hkq iQ¾hhd úiska md,kh lrkq ,nk .sks ,l=Kls'. fuu ,l=K hgf;a Wmka wh úYajdijka;" ;ahd.YS,S iy wdl¾IKSh kdhlhka fõ' kdgHuh yelshdjla iys;j" ,sfhda Tjqka hk ´kEu ;ekl wjOdkh fhduq lr wjOdkhg ,la fõ'. Tjqkaf.a WKqiqu iy mlaImd;S;ajh wka whg wdiajdohla ,nd fok w;r" Tjqka jgd isák wh kÕd isgqùug iy iún, .ekaùug iyc yelshdjla we;
             </p>
           </div>
         </div>
@@ -121,10 +122,13 @@ const Cardslider1 = () => {
           <div className="px-6 py-4 text-sin">
             <div className="font-bold text-xl mb-2">කන්‍යා</div>
             <p className="text-gray-700 text-justify">
-  {
-    "lgl úiska ixfla;j;a lrk ,o ms<sldj hkq pkaoarhd úiska md,kh lrkq ,nk c, ,l=Kls'. fuu ,.akh isxy ksfhdackh lrk ,sfhda hkq iQ¾hhd úiska md,kh lrkq isxy ksfhdackh lrk ,sfhda hkq iQ¾hhd úiska md,kh lkHd úiska ixfla;j;a lrk ,o lkHd hkq nqO .%yhd úiska md,kh lrkq ,nk mD:sú ,l=Kls'. Tjqkaf.a úYaf,aIKd;aul uki iy iúia;rd;aul wjOdkh i|yd m%isoaO lkHd ,.akh m%dfhda.sl\" läir iy ksy;udkS mqoa.,hka fõ'. rdcldßh iy fiajh ms<sn| oeä yeÕSula we;sj\" Tjqka wdh;ksl ld¾hhkays úYsIag;ajh olajk w;r Tjqka lrk iEu fohlu mßmQ¾K;ajh i|yd W;aidy lrhs'. Tjqkaf.a l%udkql+, m%fõYh iy .eg¿ úi£fï l=i,;d Tjqka ´kEu ;;ajhl§ jákd j;alï njg m;a lrhs"
-  }
+  lkHd úiska ixfla;j;a lrk ,o lkHd hkq nqO .%yhd úiska md,kh lrkq ,nk mD:sú ,l=Kls' 
+  Tjqkaf.a úYaf,aIKd;aul uki iy iúia;rd;aul wjOdkh iyd m%isoaO lkHd ,.akh m%dfhda.sl läir 
+  iy ksy;udkS mqoa.,hka fõ' rdcldßh iy fiajh mssn oeä yeÕSula we;sj" Tjqka wdh;ksl ld¾hhkays 
+  úYsIag;ajh olajk w;r Tjqka lrk iEu fohlu mßmQ¾K;ajh i|yd W;aidy lrhs' Tjqkaf.a l%udkql+, m%fõYh 
+  iy .eg¿ úi£fï l=i,;d Tjqka ´kEu ;;ajhl§ jákd j;alï njg m;a lrhs
 </p>
+
 
           </div>
         </div>
@@ -168,6 +172,7 @@ const Cardslider1 = () => {
 
           </div>
         </div>
+        
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-slate-100">
           <div className="w-full h-64">
             <img
@@ -179,9 +184,7 @@ const Cardslider1 = () => {
           <div className="px-6 py-4 text-sin">
             <div className="font-bold text-xl mb-2">ධනු</div>
             <p className="text-gray-700 text-justify leading-relaxed">
-  {
-    "Okq ÿkqjdhd úiska ksfhdackh lrkq ,nkafka íryiam;s úiska md,kh lrkq ,nk .sks ,l=Kls'. fuu ,l=K hgf;a Wmka wh YqNjd§, úlarudkaú; iy od¾Yksl h' ksoyig iy .fõIKhg we,aula we;s Okq rdYsh hkq Ôjk .ufka wre; iy i;Hh fidhk iajNdúl bnd.df;a hk whhs' Tjqkaf.a úfkdaoldó wd;auh iy fndajk Woafhda.h kj w;aoelSï je,| .ekSug iy Tjqkaf.a laIs;sch mq¿,a lsÍug wka whj fmd<Ujhs'."
-  }
+            Okq ÿkqjdhd úiska ksfhdackh lrkq "nkafka íryiam;s úiska md"kh lrkq "nk 'sks "l=Kls'' fuu "l=K hgf;a Wmka wh YqNjd§" úlarudkaú; iy od¾Yksl h' ksoyig iy 'fõIKhg we"aula we;s Okq rdYsh hkq Ôjk 'ufka wre; iy i;Hh fidhk iajNdúl bnd'df;a hk whhs' Tjqkaf'a úfkdaoldó wd;auh iy fndajk Woafhda'h kj w;aoelSï je"| 'ekSug iy Tjqkaf'a laIs;sch mq¿"a lsÍug wka whj fmdUjhs''
 </p>
 
 
@@ -198,9 +201,7 @@ const Cardslider1 = () => {
           <div className="px-6 py-4 text-sin">
             <div className="font-bold text-xl mb-2">මකර</div>
             <p className="text-gray-700 text-justify leading-relaxed">
-  {
-    "jDYaÑl úiska ixfla;j;a lrk ,o maÆfgda iy wÕyre úiska md,kh lrk ,o c, ,l=Kls'. Tjqkaf.a ;Sõr;djh iy wdYdj i|yd marisoaO, jDYaÑl wNsryia, wêIaGdkYS,S iy iïm;aodhl mqoa.,hka fõ'. yeÕSïj, .eUqrla iy n,j;a nqoaêhla we;s Tjqka ieÕjqKq i;Hhka wkdjrKh lr .ekSug iy Ôú;fha ixlS¾K;d ießieÍug olaIhs'. Tjqkaf.a mßj¾;kSh iajNdjh Tjqkag w¿ j,ska keÕS fjk ljrodg;a jvd Yla;su;a ùug bv i,ihs."
-  }
+            jDYaÑl úiska ixfla;j;a lrk "o maÆfgda iy wÕyre úiska md"kh lrk "o c" "l=Kls'' Tjqkaf'a ;Sõr;djh iy wdYdj i|yd marisoaO" jDYaÑl wNsryia" wêIaGdkYS"S iy iïm;aodhl mqoa'"hka fõ'' yeÕSïj" 'eUqrla iy n"j;a nqoaêhla we;s Tjqka ieÕjqKq i;Hhka wkdjrKh lr 'ekSug iy Ôú;fha ixlS¾K;d ießieÍug olaIhs'' Tjqkaf'a mßj¾;kSh iajNdjh Tjqkag w¿ j"ska keÕS fjk ljrodg;a jvd Yla;su;a ùug bv i"ihs'
 </p>
 
           </div>
@@ -238,9 +239,7 @@ const Cardslider1 = () => {
           <div className="px-6 py-4 text-sin">
             <div className="font-bold text-xl mb-2">මීන</div>
             <p className="text-gray-700 text-justify leading-relaxed">
-  {
-    "u;aiahhd úiska ixfla;j;a lrk ,o ók fkmapQka iy íryiam;s úiska md,kh lrk c, ,l=Kls'. Tjqkaf.a wkqlïmdj, nqoaêh iy mßl,amkh i|yd m%isoaO, ók rdYs pl%fha isysk olskakka iy iqj lrkakka fõ'. há is;g iy wOHd;añl lafIa;%hg .eUqre iïnkaOhla we;s Tjqka wka whj ;uka fj;g weo .kakd woaNQ; m%fndaOhla we;'. Tjqkaf.a mrd¾:ldó iajNdjh iy ixfõ§ yoj; Tjqka f,dalhg wdf,dalh iy iqjh f.k fok iajNdúl ixfõokhka njg m;a lrhs'."
-  }
+            u;aiahhd úiska ixfla;j;a lrk "o ók fkmapQka iy íryiam;s úiska md"kh lrk c" "l=Kls'' Tjqkaf'a wkqlïmdj" nqoaêh iy mßl"amkh i|yd m%isoaO" ók rdYs pl%fha isysk olskakka iy iqj lrkakka fõ'' há is;g iy wOHd;añl lafIa;%hg 'eUqre iïnkaOhla we;s Tjqka wka whj ;uka fj;g weo 'kakd woaNQ; m%fndaOhla we;'' Tjqkaf'a mrd¾(ldó iajNdjh iy ixfõ§ yoj; Tjqka f"dalhg wdf"dalh iy iqjh f'k fok iajNdúl ixfõokhka njg m;a lrhs''
 </p>
 
 
