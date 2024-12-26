@@ -5,16 +5,18 @@ const HoroscopeForm = () => {
     <div
       className="min-h-screen bg-cover bg-center flex items-center justify-start px-4 lg:px-0"
       style={{
-        backgroundImage: `url('/assets/image/num2.jpg')`, // Replace with your actual background image path
+        backgroundImage: `url('/assets/image/num2.jpg')`,
       }}
     >
       {/* Form Container */}
       <div
-        className="bg-white w-full sm:w-full md:max-w-lg p-6 md:p-8 lg:p-10 rounded-xl shadow-xl border-2 border-purple-500"
-        style={{
-          margin: "10%",
-        }}
-      >
+  className="bg-white w-full max-w-[500px] p-6 md:p-8 lg:p-10 rounded-xl shadow-xl border-2 border-purple-900 px-10 py-10 mt-5 mb-10"
+  style={{
+    margin: "auto", // Center the form horizontally
+  }}
+>
+
+
         {/* Title */}
         <h2 className="text-xl md:text-2xl font-medium text-center mb-4 text-purple-700 leading-snug text-sin">
         wka;su j;djg  uq¿ yoyku tljr n,d.kak        </h2>
