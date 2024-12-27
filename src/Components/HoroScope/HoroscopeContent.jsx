@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import typewriterImage from '/assets/image/content/q.jpg';
+import typewriterImage from '/assets/image/content/q.jpeg';
 
 function ContentSection1() {
   return (
@@ -21,7 +21,7 @@ function ContentSection1() {
 
       {/* Text Section */}
       <motion.div
-        className="col-span-1 md:col-span-4 lg:col-span-6 flex flex-col justify-center items-center text-center lg:text-left"
+        className="col-span-1 md:col-span-4 lg:col-span-6 flex flex-col justify-center items-left text-left lg:text-left"
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 0.2 }}
@@ -39,7 +39,7 @@ function ContentSection1() {
 
         {/* List Items */}
         <motion.ul
-          className="list-disc text-sin text-gray-800 text-sm sm:text-base md:text-lg lg:text-2xl font-medium leading-relaxed pl-6 lg:pl-8 space-y-3 sinhala-text tracking-wide"
+          className="list-disc text-sin text-gray-800 text-sm sm:text-lg md:text-lg lg:text-2xl min-[320px]:text-lg font-medium leading-relaxed pl-6 lg:pl-8 space-y-3 sinhala-text tracking-wide"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}

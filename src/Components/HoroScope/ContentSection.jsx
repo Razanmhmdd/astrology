@@ -7,10 +7,10 @@ function ContentSection() {
     <div className="grid grid-cols-1 gap-6 md:grid-cols-8 lg:grid-cols-12 bg-gradient-to-r from-violet-200 to-pink-200 p-6 md:p-8 lg:p-12">
       
       {/* Text Section */}
-      <div className="col-span-1 md:col-span-4 lg:col-span-6 flex flex-col justify-center items-center text-center lg:text-left text-sin">
+      <div className="col-span-1 md:col-span-4 lg:col-span-6 flex flex-col justify-center items-left text-center lg:text-left text-sin">
         {/* Heading */}
        
-        <ul className="list-disc text-gray-800 text-base md:text-2xl lg:text-2xl font-medium leading-relaxed pl-4 md:pl-6 space-y-3 sinhala-text">
+        <ul className="list-disc text-gray-800 text-base md:text-2xl lg:text-2xl min-[320px]:text-lg font-medium leading-relaxed pl-4 md:pl-6 space-y-3 sinhala-text text-left">
             <li>{"fhda. msysáï ioyd wod< m,dm"}</li>
            <li>{"jia;=j Okh bvï foam< ,eîfï yd ksjdi bÈlsÍï ioyd iqn ld,hla"}</li>
            <li>{"woymkh uki yd nqoaêh ms<sno"}</li>

@@ -6,14 +6,14 @@ function Horo2() {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-gradient-to-r from-pink-200 to-violet-200 p-6 md:p-8 lg:p-12 text-sin">
       
       {/* Text Section */}
-      <div className="flex flex-col justify-center items-center text-center md:text-left">
+      <div className="flex flex-col justify-center items-left text-left md:text-left">
         {/* Heading */}
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium text-gray-600 mb-6 sinhala-text tracking-wide ">
         fcHda;sYh mdGud,dj
         </h2>
         
         {/* List Items */}
-        <ul className="list-disc text-gray-800 text-base md:text-lg lg:text-2xl font-medium leading-relaxed pl-4 md:pl-6 space-y-3 sinhala-text">
+        <ul className="list-disc text-gray-800 text-base md:text-lg lg:text-2xl min-[320px]:text-lg text-left font-medium leading-relaxed pl-4 md:pl-6 space-y-3 sinhala-text">
           <li>{" ksrhk o< flakao% iE§u"}</li>
           <li>Ndj flakao% iE§u</li>
           <li>m,dM, l:kh</li>

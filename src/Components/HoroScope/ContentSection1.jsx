@@ -21,14 +21,14 @@ function ContentSection1() {
 
       {/* Text Section */}
       <motion.div
-        className="col-span-1 md:col-span-4 lg:col-span-6 flex flex-col justify-center items-center text-center lg:text-left"
+        className="col-span-1 md:col-span-4 lg:col-span-6 flex flex-col justify-center items-left text-left lg:text-left"
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 0.2 }}
       >
         {/* Heading */}
         <motion.h2
-          className="text-2xl md:text-3xl lg:text-4xl font-medium text-gray-600 mb-6"
+          className="text-2xl md:text-3xl lg:text-4xl font-medium text-gray-600 mb-6 text-left"
           initial={{ scale: 0.8 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
@@ -38,7 +38,7 @@ function ContentSection1() {
 
         {/* List Items */}
         <motion.ul
-          className="list-disc text-gray-800 text-sm sm:text-base md:text-lg lg:text-2xl font-medium leading-relaxed pl-6 lg:pl-8 space-y-3 sinhala-text tracking-wide"
+          className="list-disc text-gray-800 text-sm sm:text-base md:text-lg lg:text-2xl  min-[320px]:text-lg font-medium leading-relaxed pl-6 lg:pl-8 space-y-3 sinhala-text tracking-wide text-left"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}
